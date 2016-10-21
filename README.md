@@ -6,6 +6,7 @@ Download win32 ,copy win32 inside the file to Mingw/lib/gcc/mingw32/4.8.1/includ
 Download zlib and libpng-1.5.27,generate libpng.a,copy to Mingw/lib
 
 generate libpng.a:
+
     copy scripts/pnglibconf.h.prebuilt to pnglibconf.h
 
     and run in cmd:
