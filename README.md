@@ -14,6 +14,7 @@ generate libpng.a:
         mingw32-make -f makefile.gcc
 
 if can't you try:
+
     copy win32 inside the file to Mingw/mingw32/lib/gcc/mingw32/4.8.1/include
 
     copy libpng.a to Mingw/mingw32/lib
