@@ -5,7 +5,7 @@ Download win32 ,copy win32 inside the file(don't copy win32 Folder) to Mingw/lib
 
 Download zlib and libpng-1.5.27,generate libpng.a,copy to Mingw/lib
 
-###generate libpng.a:
+###Generate libpng.a:
 
     Copy scripts/pnglibconf.h.prebuilt to pnglibconf.h
 
