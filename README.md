@@ -1,8 +1,9 @@
 # Mingw32
-Download Mingw32,set environment variables
+Download Mingw32, set environment variables
 
-Download win32 ,copy win32 inside the file(don't copy win32 Folder) to Mingw/lib/gcc/mingw32/4.8.1/include
-(or mingw/lib/gcc/i686-w64-mingw32/4.8.1/include or other),Because the download the path is different
+Download win32, copy win32 inside the file(don't copy win32 Folder) to Mingw/lib/gcc/mingw32/4.8.1/include, Because the download the path is different(
+    mingw/lib/gcc/i686-w64-mingw32/4.8.1/include or other
+)
 
 Download zlib and libpng-1.5.27,generate libpng.a,copy to Mingw/lib
 
