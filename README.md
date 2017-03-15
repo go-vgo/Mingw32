@@ -5,9 +5,9 @@ Download win32, copy win32 inside the file(don't copy win32 Folder) to Mingw/lib
     mingw/lib/gcc/i686-w64-mingw32/4.8.1/include or other
 )
 
-Download zlib and libpng-1.5.27,generate libpng.a,copy to Mingw/lib
+Download zlib and libpng-1.5.27, generate libpng.a, copy to Mingw/lib
 
-###Generate libpng.a:
+### Generate libpng.a:
 
     Copy scripts/pnglibconf.h.prebuilt to pnglibconf.h
 
@@ -15,7 +15,7 @@ Download zlib and libpng-1.5.27,generate libpng.a,copy to Mingw/lib
         copy scripts\makefile.gcc makefile.gcc
         mingw32-make -f makefile.gcc
 
-###If can't work, you can try:
+### If can't work, you can try:
 
     Copy win32 inside the file to Mingw/mingw32/lib/gcc/mingw32/4.8.1/include
 
@@ -23,17 +23,17 @@ Download zlib and libpng-1.5.27,generate libpng.a,copy to Mingw/lib
 
 
 
-#中文文档
+# 中文文档
 
-下载一个32位的Mingw,并设置环境变量
+下载一个32 位的 Mingw, 并设置环境变量
 
-再把https://github.com/go-vgo/Mingw32 里面的win32里面的文件(不要win32文件夹)
-复制到Mingw/lib/gcc/mingw32/4.8.1/include里面, 路径可能因不同下载不同
+再把https://github.com/go-vgo/Mingw32 里面的 win32 里面的文件(不要 win32 文件夹)
+复制到Mingw/lib/gcc/mingw32/4.8.1/include 里面, 路径可能因不同下载不同
 (mingw/lib/gcc/i686-w64-mingw32/4.8.1/include 或者其他)
 
-下载zlib and libpng-1.5.27,生成 libpng.a,复制到Mingw/lib 
+下载zlib and libpng-1.5.27, 生成 libpng.a, 复制到 Mingw/lib 
 
-###生成 libpng.a:
+### 生成 libpng.a:
 
     复制 scripts/pnglibconf.h.prebuilt 到 pnglibconf.h
 
